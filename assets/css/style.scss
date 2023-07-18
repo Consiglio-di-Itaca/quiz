@@ -46,6 +46,10 @@ body {
       font-size: 36px;
       line-height: 40px;
     }
+    h3 {
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+    }
     p {
       font-size: 18px;
       text-align: center;
@@ -63,95 +67,14 @@ body {
         gap: 16px;
         max-width: 375px;
         margin: 0 auto;
-        a {
-          text-align: center;
-          padding: 16px 25.5px;
-          border-radius: 8px;
-          border: 0;
-          text-decoration: none;
-          display: flex;
-          gap: 8px;
+        ul {
           width: 100%;
-          flex-direction: row;
-          place-content: center;
-          align-items: center;
-          &.inEvidenza {
-            background-color: #ebebeb;
-            background-position: center;
-            background-size: cover;
-            padding: 16px 0;
-          }
-          &.new {
-            position: relative;
-            &::after {
-              content: "NOVITÀ";
-              font-weight: bold;
-              background: radial-gradient(
-                67.42% 65.41% at 34.48% 26.69%,
-                #9a4dff 26.56%,
-                #9825ce 100%
-              );
-              box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
-              border-radius: 16px;
-              padding: 8px 16px 7px;
-              font-size: 12px;
-              position: absolute;
-              top: 5px;
-              right: -10px;
-              transform: translate(0%, -50%);
-              box-shadow: 0px 3.2887697219848633px 3.2887697219848633px 0px
-                #00000040;
-            }
-          }
-          &.ig {
-            background: linear-gradient(
-              225deg,
-              #1400c8 0%,
-              #b900b4 50.52%,
-              #f50000 100%
-            );
-            color: #fff;
-          }
-          &.fb {
-            background: #1877f2;
-            color: #fff;
-          }
-          &.mg {
-            background: linear-gradient(
-              225deg,
-              #ff7061 0%,
-              #a033ff 50.52%,
-              #0099ff 100%
-            );
-            color: #fff;
-          }
-          &.yt {
-            background-color: #212121;
-            color: #fff;
-          }
-          &.wa {
-            background: #455a64;
-          }
-          &.f {
-            background: #131313;
-            p {
-              color: #fff;
-            }
-          }
-          &.gh {
-            background: #000000;
-            p {
-              color: #fff;
-            }
-          }
-          p {
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 18px;
-            margin: 0;
-          }
-          a {
-            color: inherit;
+          padding: 0;
+          list-style-type: none;
+          li {
+            border: 1px solid #000;
+            padding: 0;
+            text-align: center;
           }
         }
       }
