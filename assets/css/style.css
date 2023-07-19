@@ -23,7 +23,7 @@ a:hover {
 body {
   margin: 0;
   padding: 20px;
-  background: radial-gradient(125.29% 23.08% at 50.13% 39.89%, #f4cb3a 23.46%, #ffac2f 76.27%);
+  background-color: #121212;
 }
 
 body header {
@@ -60,6 +60,7 @@ body header h3 {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   margin: 10px 0 0 0;
+  color: #fff;
 }
 
 body header p {
@@ -83,6 +84,7 @@ body main section .links {
   gap: 16px;
   max-width: 375px;
   margin: 0 auto;
+  color: #fff;
 }
 
 body main section .links ul {
@@ -100,7 +102,7 @@ body main section .links ul li a:hover {
 
 body main section .links ul li a {
   display: block;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   padding: 18px 8px;
   margin: 15px 0;
   text-align: center;
