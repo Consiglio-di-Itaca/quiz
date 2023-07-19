@@ -16,6 +16,10 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   padding: 20px;
